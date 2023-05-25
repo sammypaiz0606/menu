@@ -1,9 +1,9 @@
 const menu = [
     {
       id: 1,
-      title: "pan dulce",
+      title: "breakfast veggie egg stack",
       category: "breakfast",
-      price: 5.99,
+      price: 10.99,
       img: "./images/item-1.jpeg",
       desc: `I'm baby woke mlkshk wolf bitters live-edge blue bottle, hammock freegan copper mug whatever cold-pressed `,
     },
@@ -17,15 +17,15 @@ const menu = [
     },
     {
       id: 3,
-      title: "aguas frescas",
-      category: "shakes",
+      title: "pan dulce",
+      category: "desserts",
       price: 5.99,
       img: "./images/item-3.jpeg",
       desc: `ombucha chillwave fanny pack 3 wolf moon street art photo booth before they sold out organic viral.`,
     },
     {
       id: 4,
-      title: "taquitoes",
+      title: "breakfast burrito",
       category: "breakfast",
       price: 12.99,
       img: "./images/item-4.jpeg",
@@ -42,7 +42,7 @@ const menu = [
     {
       id: 6,
       title: "paletas",
-      category: "shakes",
+      category: "desserts",
       price: 5.99,
       img: "./images/item-6.jpeg",
       desc: `Portland chicharrones ethical edison bulb, palo santo craft beer chia heirloom iPhone everyday`,
@@ -66,9 +66,17 @@ const menu = [
     {
       id: 9,
       title: "flan",
-      category: "shakes",
+      category: "desserts",
       price: 10.99,
       img: "./images/item-9.jpeg",
+      desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
+    },
+    {
+      id: 10,
+      title: "tacos",
+      category: "lunch",
+      price: 10.99,
+      img: "./images/item-10.jpeg",
       desc: `skateboard fam synth authentic semiotics. Live-edge lyft af, edison bulb yuccie crucifix microdosing.`,
     },
   ];
