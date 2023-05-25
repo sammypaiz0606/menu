@@ -51,7 +51,7 @@ const menu = [
       id: 7,
       title: "huevos rancheros",
       category: "breakfast",
-      price: 8.99,
+      price: 15.99,
       img: "./images/item-7.jpeg",
       desc: `carry jianbing normcore freegan. Viral single-origin coffee live-edge, pork belly cloud bread iceland put a bird `,
     },
