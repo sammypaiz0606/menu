@@ -153,7 +153,7 @@ p {
 /* MAIN PAGE */
   .main-page {
     position: absolute;
-    top:-100px;
+    top:-150px;
     z-index: 100;
     background: var(--clr-green-dark);
     display: flex;
@@ -180,28 +180,30 @@ p {
     justify-content: center; 
     flex-direction: column;
     text-align: center;
-    margin-top: 20px;
-    
+    position: relative;
+    top: -20px;
   }
-  .menuText .see-menu-btn h4 {
-    background: var(--clr-green-light);
-    width: 120px;
-    height: 20px;
-    border-radius: 20px;
-    padding-bottom:5px;
-    box-shadow: var(--dark-shadow);
+  .main-page .div-page .see-menu .taqueria h4 {
+    font-size: 1.5rem;
+    
   }
   .main-page .div-page .menuText .see-menu-btn {
-    
+    background: var(--clr-green-light);
+    padding: 5px 0;
+    border-radius: 20px;
+    box-shadow: var(--dark-shadow);
+
   }
   .main-page .menuText .see-menu-btn:hover {
     cursor: pointer;
     color: var(--clr-red);
-    border:1px solid var(--clr-red);
+    border:0.5px solid var(--clr-red);
   }
   /* MENU */
 
   .menu {
+    position: relative;
+    top:-100px;
     padding: 5rem 0;
     font-family: var(--ff-secondary);
     background: var(--clr-green-light);
