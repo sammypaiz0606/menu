@@ -153,6 +153,7 @@ p {
 /* MAIN PAGE */
   .main-page {
     position: absolute;
+    top:-100px;
     z-index: 100;
     background: var(--clr-green-dark);
     display: flex;
@@ -176,21 +177,27 @@ p {
   }
   .main-page .div-page .see-menu {
     display: flex;
-    justify-content: center;
+    justify-content: center; 
+    flex-direction: column;
+    text-align: center;
     margin-top: 20px;
     
   }
-  .main-page .see-menu-btn {
+  .menuText .see-menu-btn h4 {
     background: var(--clr-green-light);
     width: 120px;
+    height: 20px;
     border-radius: 20px;
-    text-align: center;
     padding-bottom:5px;
     box-shadow: var(--dark-shadow);
   }
-  .main-page .see-menu-btn:hover {
+  .main-page .div-page .menuText .see-menu-btn {
+    
+  }
+  .main-page .menuText .see-menu-btn:hover {
     cursor: pointer;
     color: var(--clr-red);
+    border:1px solid var(--clr-red);
   }
   /* MENU */
 
