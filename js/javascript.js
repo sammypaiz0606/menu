@@ -152,3 +152,14 @@ function displayMenuButtons() {
     });
   });
 }
+
+let mainPage = document.querySelector('.main-page');
+let seeMenu = document.querySelector('.see-menu-btn');
+
+seeMenu.addEventListener('click', ()=> {
+  mainPage.style.width = '0px';
+  mainPage.style.overflow = 'hidden';
+});
+
+
+
